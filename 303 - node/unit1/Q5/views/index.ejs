@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EJS Demo</title>
+<style>
+body{
+font-family:Arial;
+background:#f4f4f4;
+}
+.container{
+width:500px;
+margin:100px auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+h1{
+color:blue;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>User Details</h1>
+<h2>Name : <%= user.name %></h2>
+<h2>Age : <%= user.age %></h2>
+<h2>Course : <%= user.course %></h2>
+</div>
+</body>
+</html>

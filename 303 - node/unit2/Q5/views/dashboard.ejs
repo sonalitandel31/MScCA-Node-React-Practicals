@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Dashboard</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 15px 30px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        h1 {
+            margin-bottom: 25px;
+        }
+
+        .users {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .user-card {
+            background-color: white;
+            width: 250px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .user-card h3 {
+            margin-top: 0;
+        }
+
+        .user-card p {
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <h2>User Dashboard</h2>
+    </div>
+
+    <div class="container">
+
+        <h1>Users</h1>
+
+        <div class="users">
+
+            <% users.forEach(user => { %>
+
+                <div class="user-card">
+                    <h3><%= user.name %></h3>
+                    <p><strong>ID:</strong> <%= user.id %></p>
+                    <p><strong>Email:</strong> <%= user.email %></p>
+                    <p><strong>Age:</strong> <%= user.age %></p>
+                </div>
+
+            <% }); %>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
