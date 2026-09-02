@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Student Component matches snapshot 1`] = `
+<div>
+  <div
+    class="student-card"
+  >
+    <div
+      class="avatar"
+    >
+      ST
+    </div>
+    <div>
+      <h2>
+        Student Information
+      </h2>
+      <p>
+        <strong>
+          Name:
+        </strong>
+         Rahul Patel
+      </p>
+      <p>
+        <strong>
+          Course:
+        </strong>
+         
+        MSc Computer Application
+      </p>
+      <p>
+        <strong>
+          Semester:
+        </strong>
+         3
+      </p>
+    </div>
+  </div>
+</div>
+`;
