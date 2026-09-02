@@ -1,0 +1,24 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Perfect",
+      "artist": "Ed Sheeran"
+    },
+    {
+      "id": 2,
+      "title": "Believer",
+      "artist": "Imagine Dragons"
+    },
+    {
+      "id": 3,
+      "title": "Shape of You",
+      "artist": "Ed Sheeran"
+    },
+    {
+      "id": 4,
+      "title": "Faded",
+      "artist": "Alan Walker"
+    }
+  ]
+}
